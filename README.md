@@ -15,8 +15,10 @@ This project is an image classification application using a Convolutional Neural
 - **Convolutional Neural Network (CNN):** The model is built using multiple convolutional layers to extract features from images, followed by fully connected layers for classification.
 - **Real-time Image Classification:** After training, the model can classify new images in real-time.
 - **Training and Validation:** The model is trained on the CIFAR-10 training set and validated on the test set, with accuracy and loss plots generated after training.
+  
 ## Dataset:  
-- **CIFAR-10 Dataset:** The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different classes, with 6,000 images per class. The dataset is divided into 50,000 training images and 10,000 test images. The classes include:  
+
+**CIFAR-10 Dataset:** The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different classes, with 6,000 images per class. The dataset is divided into 50,000 training images and 10,000 test images. The classes include:  
 - Airplane
 - Automobile
 - Bird
@@ -27,6 +29,7 @@ This project is an image classification application using a Convolutional Neural
 - Horse
 - Ship
 - Truck
+  
 ## Technology Used  
 - **Python 3.x** (Core language for backend and data processing)
 - **TensorFlow / Keras** (Deep learning frameworks for building and training the CNN model)
@@ -44,44 +47,22 @@ This project is an image classification application using a Convolutional Neural
 
 ### Step 1: Clone the Repository
 
-``` 
-git clone https://github.com/Harshikajain23/CODTECH-Internship-Task1.git
-cd CODTECH-Internship-Task1
+```
+git clone https://github.com/Harshikajain23/CODTECH-Internship-Task2.git
+cd CODTECH-Internship-Task2
 ```
 
-### Step 2: Set Up Virtual Environment (Optional)
+
+### Step 2: Install Dependencies
 
 ```
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+pip install tensorflow matplotlib numpy
 ```
 
-### Step 3: Install Dependencies
-
+### Step 3: Run the Program
 ```
-pip install -r requirements.txt 
+python classify.py
 ```
-
-### Step 4: Download NLTK Data
-
-In your Python environment, run the following script to download the necessary NLTK data files:
-
-```
-import nltk
-nltk.download('movie_reviews')
-nltk.download('punkt')
-nltk.download('vader_lexicon')
-nltk.download('stopwords')
-```
-
-### Step 5: Run the Application
-
-```
-python app.py
-```
-This will start the Flask development server. By default, it runs on http://127.0.0.1:5000.  
-Now you can access the project by navigating to http://127.0.0.1:5000 in your web browser.
-
 
 ## Usage
 
@@ -94,6 +75,8 @@ Now you can access the project by navigating to http://127.0.0.1:5000 in your we
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-![screen shot 1](https://github.com/Harshikajain23/CODTECH-Internship-Task1/assets/129208900/903c6f0d-3544-4844-ba35-d4c4076b4a66)
+![snap 1](https://github.com/user-attachments/assets/f92e4221-ad02-4d09-9078-94ffc93128b0)
 
-![screen shot 2](https://github.com/Harshikajain23/CODTECH-Internship-Task1/assets/129208900/d9b6189a-d1d9-47f4-b465-ff6a28498001)
+![snap 2](https://github.com/user-attachments/assets/0fbe9be9-96b2-4395-b117-5e7d31e8baf0)
+
+

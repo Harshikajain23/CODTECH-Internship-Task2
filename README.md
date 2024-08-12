@@ -76,6 +76,9 @@ python classify.py
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
+## Output 
+
+
 
 ![snap 1](https://github.com/user-attachments/assets/f92e4221-ad02-4d09-9078-94ffc93128b0)
 
